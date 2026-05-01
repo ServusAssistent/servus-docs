@@ -48,114 +48,91 @@ Com foco em:
 
 ---
 
-# Objetivo Principal
+# Estrutura da Documentação
 
-Construir a infraestrutura operacional inteligente das igrejas.
-
-Começando:
-
-* simples
-* extremamente útil
-* operacional
-* escalável
-* orientado por IA
-
----
-
-# Estrutura do Repositório
-
-```txt id="0my3y6"
+```txt
 servus-docs/
-
+│
 ├── architecture/
 ├── business/
 ├── decisions/
 ├── processes/
 ├── product/
-├── roadmap/
+└── roadmap/
 ```
 
 ---
 
-# Diretórios
+# Navegação Rápida
 
-# architecture/
+# Architecture
 
 Documentação técnica da plataforma.
 
-Inclui:
+## Arquivos
 
-* backend
-* frontend
-* infraestrutura
-* IA
-* banco de dados
-* escalabilidade
+* [backend.md](./architecture/backend.md)
+* [frontend.md](./architecture/frontend.md)
+* [infrastructure.md](./architecture/infrastructure.md)
 
 ---
 
-# business/
+# Business
 
 Documentação estratégica e comercial.
 
-Inclui:
+## Arquivos sugeridos
 
-* pricing
-* posicionamento
-* aquisição
-* ICP
-* concorrência
+* [pricing.md](./business/pricing.md)
+* [icp.md](./business/icp.md)
+* [positioning.md](./business/positioning.md)
+* [acquisition.md](./business/acquisition.md)
+* [competitors.md](./business/competitors.md)
 
 ---
 
-# decisions/
+# Decisions
 
 Registro de decisões arquiteturais e estratégicas.
 
-Objetivo:
+## Arquivos
 
-* preservar contexto
-* evitar retrabalho
-* manter consistência
+* [decisions.md](./decisions/decisions.md)
 
 ---
 
-# processes/
+# Processes
 
 Processos internos de desenvolvimento.
 
-Inclui:
+## Arquivos
 
-* branching
-* padrões
-* fluxo Git
-* convenções
+* [branching.md](./processes/branching.md)
 
 ---
 
-# product/
+# Product
 
 Definição do produto.
 
-Inclui:
+## Arquivos
 
-* visão
-* MVP
-* workflows
-* funcionalidades
-* pipelines
+* [mvp.md](./product/mvp.md)
+* [vision.md](./product/vision.md)
+* [workflows.md](./product/workflows.md)
+* [pipelines.md](./product/pipelines.md)
 
 ---
 
-# roadmap/
+# Roadmap
 
 Planejamento e evolução do projeto.
 
-Inclui:
+## Arquivos
 
-* backlog
-* milestones
-* roadmap geral
+* [roadmap.md](./roadmap/roadmap.md)
+* [milestones.md](./roadmap/milestones.md)
+* [backlog.md](./roadmap/backlog.md)
 
 ---
 
@@ -231,18 +208,6 @@ Objetivo:
 
 ---
 
-# Estratégia de Produto
-
-O foco inicial NÃO é:
-
-# construir ERP completo.
-
-O foco é:
-
-# resolver dores operacionais reais das igrejas via WhatsApp.
-
----
-
 # Funcionalidades Principais do MVP
 
 * chatbot WhatsApp
@@ -256,77 +221,11 @@ O foco é:
 
 ---
 
-# Estratégia Comercial Inicial
-
-Modelo:
-
-# SaaS mensal
-
-Aquisição inicial:
-
-* networking
-* igrejas piloto
-* demonstrações
-* implantação próxima
-* indicação
-
----
-
-# Objetivo do MVP
-
-Validar:
-
-* retenção
-* uso recorrente
-* valor percebido
-* disposição de pagamento
-* eficiência operacional
-
----
-
-# Regras do Projeto
-
-## Regra 1
-
-Priorizar:
-
-# execução
-
-Não:
-
-# perfeccionismo
-
----
-
-## Regra 2
-
-Toda decisão importante deve ser documentada.
-
----
-
-## Regra 3
-
-Evitar troca impulsiva de stack ou arquitetura.
-
----
-
-## Regra 4
-
-IA deve acelerar desenvolvimento, não substituir pensamento arquitetural.
-
----
-
-## Regra 5
-
-Complexidade só deve ser adicionada quando houver necessidade real.
-
----
-
 # Convenções
 
 ## Branches
 
-```txt id="56m6mk"
+```txt
 main
 develop
 feature/*
@@ -337,13 +236,73 @@ hotfix/*
 
 # Commits
 
-```txt id="7m9k4o"
+```txt
 feat:
 fix:
 chore:
 refactor:
 docs:
 ```
+
+---
+
+# GitHub Pages
+
+O projeto poderá ser publicado futuramente usando GitHub Pages.
+
+## URL esperada
+
+```txt
+https://servusassistent.github.io/servus-docs/
+```
+
+---
+
+# Como ativar GitHub Pages
+
+## 1. Abrir o repositório
+
+GitHub → Settings
+
+---
+
+## 2. Abrir seção
+
+```txt
+Pages
+```
+
+---
+
+## 3. Configurar
+
+### Source
+
+```txt
+Deploy from a branch
+```
+
+---
+
+### Branch
+
+```txt
+main
+```
+
+---
+
+### Folder
+
+```txt
+/ root
+```
+
+---
+
+## 4. Save
+
+Após alguns minutos o GitHub publicará o site.
 
 ---
 
@@ -402,4 +361,4 @@ Objetivo atual:
 * validar mercado
 * conseguir igrejas piloto
 * gerar retenção
-* provar valor operacional
+* pro
